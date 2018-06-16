@@ -1,0 +1,172 @@
+html, body {
+
+  display: inline;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100%;
+
+  margin: 0px;
+
+  padding: 0px;
+
+font-family: "Times New Roman", Times, serif;
+
+color: rgb(35, 35, 35);
+
+}
+
+
+
+.wrapper {
+
+  max-width: 100%;
+
+  display: flex;
+
+  flex-direction: row;
+
+  height: 100%;
+
+ background: linear-gradient(to top, paleturquoise 0%, mediumturquoise 100%);
+
+background-repeat: no-repeat;
+
+  background-size: cover;
+
+}
+
+.right {
+
+  margin: 0px;
+
+  max-width: 100%;
+
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: inline;
+
+  left: 100px;
+
+  right: 0;
+
+font-size: 20px;
+
+}
+
+
+
+.left {
+
+  width: 280px;
+
+text-align: center;
+
+font-size: 25px;
+
+}
+
+.quote{
+
+margin-left: 25px;
+margin-right: 50px;
+margin-top: 30px;
+text-align: center;
+
+}
+
+.bio{
+
+text-indent: 40px;
+margin-top: 30px;
+margin-right: 25px;
+
+} 
+
+
+.edu-head {
+margin-top: 0px;
+
+margin-bottom: 0px;
+}
+
+.doc-head {
+margin-top: 0px;
+
+margin-bottom: 0px;
+}
+
+.social-links {
+
+  list-style: none;
+
+  padding-left: 45px;
+
+}
+
+.social-links li {
+
+margin: 15px 0;
+
+}
+
+.social-links a {
+
+color: rgb(0, 164, 2);
+
+text-decoration: none;
+
+}
+
+.edu-list {
+
+  list-style: none;
+
+  padding-left: 45px;
+
+}
+
+.edu-list li {
+
+margin: 15px 0;
+
+}
+
+.space1 {
+
+margin-left: 25px;
+
+}
+
+.space2 {
+
+margin-left: 25px;
+
+}
+
+.space3 {
+
+margin-left: 33px;
+
+}
+
+.space4 {
+
+margin-left: 89px;
+
+}
+
+.profile-picture {
+
+    border: 2px solid rgb(35, 35, 35);
+    padding: 0px;
+    border-radius: 100px 100px;
+   margin-top: 20px;
+
+}
